@@ -45,14 +45,14 @@ const Index = () => (
               Robots Among Us Workshop
             </h1>
             <p className="font-serif text-body-lg text-muted-foreground mt-4 measure-text">
-              Provocations and debates on the future of human-robot collaboration. Robots have left the factory floor and entered hospitals, classrooms, warehouses, and offices. This workshop uses adversarial collaboration to turn disagreement into progress through structured debates, competing viewpoints, and co-designed research agendas.
+              Provocations and debates on the future of human-robot collaboration. Robots have left the factory floor and entered hospitals, classrooms, warehouses, and offices. This workshop uses position statements and mini-panel conversations to turn disagreement into progress — surfacing competing viewpoints and opening them up to the room.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 to="/submit"
                 className="inline-flex h-12 items-center rounded-sm bg-primary px-8 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
               >
-                Submit A Stance
+                Submit a Position Statement
               </Link>
               <Link
                 to="/provocations"

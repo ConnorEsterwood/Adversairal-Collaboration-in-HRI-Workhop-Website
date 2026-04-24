@@ -16,8 +16,8 @@ const stanceSignals = [
   },
   {
     label: "Outcome",
-    value: "Lightning talk consideration",
-    detail: "Strong submissions may be invited into the framing segment.",
+    value: "Mini-panel invitation",
+    detail: "Authors of accepted position statements may be invited to join the mini-panel for their relevant provocation.",
   },
 ];
 
@@ -25,7 +25,7 @@ const stanceCriteria = [
   "Address two or three provocations from the workshop set.",
   "Take a position that someone could disagree with immediately.",
   "Back the claim with reasoning, examples, evidence, or implications.",
-  "Write for debate: direct, concise, and readable aloud.",
+  "Write clearly enough that the panel — and the room — has something real to respond to.",
 ];
 
 const responseSteps = [
@@ -36,7 +36,7 @@ const responseSteps = [
   },
   {
     id: "02",
-    title: "State the hardline stance",
+    title: "State your position",
     detail: "Lead with the central claim in a sentence that is clear enough to trigger a real response.",
   },
   {
@@ -58,13 +58,13 @@ const Submit = () => (
       <div className="container py-16 md:py-20">
         <p className="font-mono text-meta text-primary mb-4">Submit</p>
         <h1 className="text-h1-mobile md:text-h1 font-bold text-foreground">
-          Submit a hardline stance
+          Submit a position statement
         </h1>
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
-          Pick two or three provocations and respond with a purposefully opinionated stance. We are looking for short, argument-forward pieces that push the conversation and invite serious disagreement.
+          Pick two or three provocations and respond with a purposefully opinionated position statement. We are looking for short, argument-forward pieces that push the conversation and invite serious disagreement.
         </p>
         <p className="mt-3 text-sm text-muted-foreground measure-text">
-          This is not a formal paper acceptance track. Instead, strong submissions may be invited to present during the framing and provocation lightning talks segment.
+          This is not a formal paper acceptance track. Authors of accepted position statements may be invited to join the mini-panel conversation for their relevant provocation.
         </p>
       </div>
     </section>
@@ -76,9 +76,9 @@ const Submit = () => (
             <div className="grid md:grid-cols-[minmax(0,1.15fr)_minmax(18rem,0.85fr)]">
               <div className="px-6 py-8 md:px-8 md:py-10">
                 <p className="font-mono text-meta text-primary">Submission route</p>
-                <h2 className="mt-3 text-h3 font-bold text-foreground">Ready to take a side?</h2>
+                <h2 className="mt-3 text-h3 font-bold text-foreground">Ready to take a position?</h2>
                 <p className="mt-3 text-sm text-muted-foreground measure-text">
-                  Use the external form to submit a brief, hardline stance. The goal is to surface a position clearly enough that the room has something real to respond to.
+                  Use the external form to submit a brief position statement. The goal is to surface a position clearly enough that the panel — and the room — has something real to respond to.
                 </p>
 
                 <div className="mt-6">
@@ -126,8 +126,8 @@ const Submit = () => (
 
           <div className="grid gap-8 md:grid-cols-2">
             <section className="rounded-sm border border-border bg-card px-6 py-7 md:px-8">
-              <p className="font-mono text-meta text-primary">What makes a strong stance</p>
-              <h2 className="mt-3 text-h3 font-bold text-foreground">Write something the room can argue with</h2>
+              <p className="font-mono text-meta text-primary">What makes a strong position statement</p>
+              <h2 className="mt-3 text-h3 font-bold text-foreground">Write something the panel can respond to</h2>
               <ul className="mt-6 space-y-4">
                 {stanceCriteria.map((item) => (
                   <li key={item} className="flex items-start gap-3 text-sm text-muted-foreground">
@@ -160,7 +160,7 @@ const Submit = () => (
             <section className="rounded-sm border border-border bg-warm px-6 py-7 md:px-8">
               <p className="font-mono text-meta text-muted-foreground">Why this format</p>
               <p className="mt-3 text-sm text-foreground">
-                This is an invitation mechanism, not a mini proceedings track. The format is intentionally short so submissions can function as arguments that kick off live debate.
+                This is an invitation mechanism, not a mini proceedings track. The format is intentionally short — a focused position that anchors a mini-panel conversation and opens things up for the room.
               </p>
             </section>
 

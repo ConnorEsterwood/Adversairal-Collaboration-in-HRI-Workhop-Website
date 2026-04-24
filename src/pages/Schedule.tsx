@@ -3,34 +3,28 @@ import { motion } from "framer-motion";
 
 const segments = [
   {
-    time: "30 min",
-    title: "Framing and provocation lightning talks",
+    time: "~15 min",
+    title: "Welcome and framing",
     description:
-      "Organizers set the stage with rapid-fire presentations of all five provocations. Each statement is delivered as an argument, not a summary. Participants receive their debate assignments.",
+      "Organizers introduce the workshop, explain the position statement format, and provide brief framing context for each of the five provocations.",
   },
   {
-    time: "60 min",
-    title: "Debate rounds, Oxford-style",
+    time: "~25–30 min each",
+    title: "Mini-panel sessions",
     description:
-      "Participants engage in structured Oxford-style debates on selected provocations. Teams argue for and against each statement. Audience members vote before and after each round, making the shift in opinion visible in real time.",
+      "The core of the workshop. Each session focuses on one provocation and features a short panel conversation among invited position statement authors, followed by open Q&A with all attendees. The number of panels — up to five — will depend on which provocations attract the most position statement submissions.",
   },
   {
-    time: "30 min",
+    time: "~30 min",
     title: "Coffee break",
     description:
-      "Coffee, refreshments, and informal discussion across debate positions before moving into collaborative design work.",
+      "Refreshments and informal conversation between panel sessions.",
   },
   {
-    time: "30 min",
-    title: "Adversarial collaboration design",
+    time: "~15–20 min",
+    title: "Closing discussion",
     description:
-      "Mixed groups draft research proposals that synthesize opposing positions into testable hypotheses. The goal is not consensus but productive disagreement — collaborative work that takes both sides seriously.",
-  },
-  {
-    time: "30 min",
-    title: "Synthesis and research agenda",
-    description:
-      "Groups present their adversarial proposals. The full workshop identifies shared research priorities, methodological gaps, and potential collaborations that emerged from the day's arguments.",
+      "An open, full-room conversation on cross-cutting themes that surfaced across the panels. Organizers facilitate; everyone is invited to contribute.",
   },
 ];
 
@@ -40,10 +34,13 @@ const Schedule = () => (
       <div className="container py-16 md:py-20">
         <p className="font-mono text-meta text-primary mb-4">Workshop schedule</p>
         <h1 className="text-h1-mobile md:text-h1 font-bold text-foreground">
-          Three hours. No passive listening.
+          Panels, position statements, and structured conversation.
         </h1>
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
-          This is not a mini-conference. Every segment requires active participation — debating, designing, and building research agendas collaboratively.
+          A half-day workshop built around mini-panel conversations on the five provocations, each anchored by submitted position statements and open to Q&A from all attendees.
+        </p>
+        <p className="mt-4 text-sm text-muted-foreground measure-text italic">
+          Schedule is tentative and subject to change as submissions come in and panelists are confirmed.
         </p>
       </div>
     </section>
