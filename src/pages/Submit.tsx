@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Layout from "@/components/layout/Layout";
 
-const submissionFormUrl = "";
+const submissionFormUrl = "https://forms.office.com/r/4XWb2mVC94";
 
 const stanceSignals = [
   {
@@ -58,7 +58,7 @@ const Submit = () => (
       <div className="container py-16 md:py-20">
         <p className="font-mono text-meta text-primary mb-4">Submit</p>
         <h1 className="text-h1-mobile md:text-h1 font-bold text-foreground">
-          Submit a position statement
+          Submit a position
         </h1>
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
           Pick two or three provocations and respond with a purposefully opinionated position statement. We are looking for short, argument-forward pieces that push the conversation and invite serious disagreement.
@@ -96,7 +96,7 @@ const Submit = () => (
                       disabled
                       className="inline-flex h-12 items-center rounded-sm bg-primary px-8 text-sm font-medium text-primary-foreground opacity-50 cursor-not-allowed"
                     >
-                      Google Form link — coming soon
+                      Microsoft Form link — coming soon
                     </button>
                   )}
                 </div>
