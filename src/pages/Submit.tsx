@@ -17,7 +17,7 @@ const stanceSignals = [
   {
     label: "Outcome",
     value: "Mini-panel invitation",
-    detail: "Authors of accepted position statements may be invited to join the mini-panel for their relevant provocation.",
+    detail: "Selected authors may be invited to join the mini-panel for their relevant provocation.",
   },
 ];
 
@@ -47,8 +47,8 @@ const responseSteps = [
 ];
 
 const dates = [
-  { label: "Submission deadline", value: "TBD" },
-  { label: "Notification of acceptance", value: "TBD" },
+  { label: "Submission deadline", value: "November 15, 2026" },
+  { label: "Panel invitation notification", value: "December 15, 2026" },
   { label: "Workshop date", value: "January 5–8, 2027" },
 ];
 
@@ -64,7 +64,7 @@ const Submit = () => (
           Pick two or three provocations and respond with a purposefully opinionated position statement. We are looking for short, argument-forward pieces that push the conversation and invite serious disagreement.
         </p>
         <p className="mt-3 text-sm text-muted-foreground measure-text">
-          This is not a formal paper acceptance track. Authors of accepted position statements may be invited to join the mini-panel conversation for their relevant provocation.
+          This is not a formal paper acceptance track. Selected authors may be invited to join the mini-panel conversation for their relevant provocation.
         </p>
       </div>
     </section>

@@ -12,8 +12,8 @@ const provocations = [
 ];
 
 const dates = [
-  { label: "Submission deadline", value: "TBD" },
-  { label: "Notification of acceptance", value: "TBD" },
+  { label: "Submission deadline", value: "November 15, 2026" },
+  { label: "Panel invitation notification", value: "December 15, 2026" },
   { label: "Workshop date", value: "January 5–8, 2027" },
 ];
 
