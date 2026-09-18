@@ -6,24 +6,24 @@ const submissionFormUrl = "https://forms.office.com/r/4XWb2mVC94";
 const stanceSignals = [
   {
     label: "Pick",
-    value: "2–3 provocations",
-    detail: "Choose the claims you want to sharpen, reject, or complicate.",
+    value: "One provocation",
+    detail: "One response is required. A second response is optional.",
   },
   {
     label: "Length",
     value: "300–500 words",
-    detail: "A concise argument is better than a mini-paper.",
+    detail: "Per response, in plain text. No new study or formal paper formatting required.",
   },
   {
     label: "Outcome",
-    value: "Mini-panel invitation",
-    detail: "Selected authors may be invited to join the mini-panel for their relevant provocation.",
+    value: "Consideration for a panel",
+    detail: "Selected contributors will be invited to a two-person moderated debate. Submission does not guarantee selection.",
   },
 ];
 
 const stanceCriteria = [
-  "Address two or three provocations from the workshop set.",
-  "Take a position that someone could disagree with immediately.",
+  "Address one of the five provocations in 300–500 words. A second 300–500-word response is optional.",
+  "Defend a position you actually hold. Nuanced or conditional disagreement is welcome.",
   "Back the claim with reasoning, examples, evidence, or implications.",
   "Write clearly enough that the panel — and the room — has something real to respond to.",
 ];
@@ -32,7 +32,7 @@ const responseSteps = [
   {
     id: "01",
     title: "Choose the tension",
-    detail: "Select the provocations that you think the field is getting wrong, avoiding, or flattening.",
+    detail: "Choose one provocation you want to support, challenge, or complicate.",
   },
   {
     id: "02",
@@ -48,8 +48,9 @@ const responseSteps = [
 
 const dates = [
   { label: "Submission deadline", value: "November 15, 2026" },
-  { label: "Panel invitation notification", value: "December 15, 2026" },
-  { label: "Workshop date", value: "January 5–8, 2027" },
+  { label: "Final notifications", value: "December 15, 2026" },
+  { label: "Workshop date", value: "January 5, 2027" },
+  { label: "Time and room", value: "Pending confirmation" },
 ];
 
 const Submit = () => (
@@ -61,11 +62,12 @@ const Submit = () => (
           Submit a position
         </h1>
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
-          Pick two or three provocations and respond with a purposefully opinionated position statement. We are looking for short, argument-forward pieces that push the conversation and invite serious disagreement.
+          Choose one provocation and submit one 300–500-word position statement in plain text. No new study or formal paper formatting is required. A second response is optional. Defend a position you actually hold; nuanced disagreement is welcome.
         </p>
         <p className="mt-3 text-sm text-muted-foreground measure-text">
-          This is not a formal paper acceptance track. Selected authors may be invited to join the mini-panel conversation for their relevant provocation.
+          Submit for consideration as a contributor to a two-person moderated debate. Participation is voluntary and separate from your accepted HICSS paper. This workshop does not offer proceedings publication or guarantee a panel place.
         </p>
+        <p className="mt-3 text-sm text-muted-foreground measure-text">Prefer to join the discussion? <Link to="/schedule#attend" className="font-medium text-primary hover:underline">Audience members do not need to submit.</Link></p>
       </div>
     </section>
 
@@ -78,7 +80,7 @@ const Submit = () => (
                 <p className="font-mono text-meta text-primary">Submission route</p>
                 <h2 className="mt-3 text-h3 font-bold text-foreground">Ready to take a position?</h2>
                 <p className="mt-3 text-sm text-muted-foreground measure-text">
-                  Use the external form to submit a brief position statement. The goal is to surface a position clearly enough that the panel — and the room — has something real to respond to.
+                  Use the form to submit your statement. Explain your reasoning, examples, evidence, or implications so that other contributors and the audience can respond to your argument.
                 </p>
 
                 <div className="mt-6">
@@ -160,7 +162,7 @@ const Submit = () => (
             <section className="rounded-sm border border-border bg-warm px-6 py-7 md:px-8">
               <p className="font-mono text-meta text-muted-foreground">Why this format</p>
               <p className="mt-3 text-sm text-foreground">
-                This is an invitation mechanism, not a mini proceedings track. The format is intentionally short — a focused position that anchors a mini-panel conversation and opens things up for the room.
+                Selected contributors can develop their argument through substantive responses in a moderated debate and connect with researchers who approach the question differently. We aim to select three debates from the strongest contrasting submissions across all five provocations.
               </p>
             </section>
 
@@ -183,6 +185,7 @@ const Submit = () => (
               </div>
 
               <div className="border-t border-border px-6 py-6 md:px-8">
+                <p className="mb-4 text-sm text-muted-foreground">We will acknowledge submissions within one week. We may contact you earlier to discuss possible participation and January 5 availability; those conversations do not promise selection. Final notifications will be sent by December 15.</p>
                 <p className="text-sm text-muted-foreground">
                   Questions about submissions?{' '}
                   <a href="mailto:cte@wayne.edu" className="font-medium text-primary hover:underline">

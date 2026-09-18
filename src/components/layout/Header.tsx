@@ -41,7 +41,7 @@ const Header = () => {
             to="/submit"
             className="inline-flex h-9 items-center rounded-sm bg-primary px-5 text-sm font-medium text-primary-foreground transition-colors hover:bg-primary-hover"
           >
-            Submit A Stance
+            Submit a Statement
           </Link>
         </nav>
 
@@ -79,7 +79,7 @@ const Header = () => {
               onClick={() => setMobileOpen(false)}
               className="inline-flex h-10 items-center justify-center rounded-sm bg-primary px-5 text-sm font-medium text-primary-foreground"
             >
-              Submit A Stance
+              Submit a Statement
             </Link>
           </div>
         </nav>

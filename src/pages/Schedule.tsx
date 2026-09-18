@@ -10,9 +10,9 @@ const segments = [
   },
   {
     time: "~25–30 min each",
-    title: "Mini-panel sessions",
+    title: "Three moderated debates (planned)",
     description:
-      "The core of the workshop. Each session focuses on one provocation and features a short panel conversation among invited position statement authors, followed by open Q&A with all attendees. The number of panels — up to five — will depend on which provocations attract the most position statement submissions.",
+      "We aim to bring together six distinct contributors in three two-person panels, each followed by open audience discussion. Topics will be chosen from the strongest contrasting submissions across all five provocations. If three substantive debates cannot be formed, we will run two panels with more audience discussion.",
   },
   {
     time: "~30 min",
@@ -37,15 +37,21 @@ const Schedule = () => (
           Panels, position statements, and structured conversation.
         </h1>
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
-          A half-day workshop built around mini-panel conversations on the five provocations, each anchored by submitted position statements and open to Q&A from all attendees.
+          A half-day workshop on January 5, 2027, built around moderated debates and open audience discussion. The assigned time and room are pending confirmation with HICSS.
         </p>
         <p className="mt-4 text-sm text-muted-foreground measure-text italic">
-          Schedule is tentative and subject to change as submissions come in and panelists are confirmed.
+          This outline is tentative. Panel questions and confirmed contributors will be announced by December 15. Exact timings and a calendar entry will follow once the workshop slot is confirmed.
         </p>
       </div>
     </section>
 
     <div className="container py-16 md:py-24">
+      <section id="attend" className="scroll-mt-20 mb-12 rounded-sm border border-border bg-card p-6 md:p-8">
+        <p className="font-mono text-meta text-primary">Join the audience</p>
+        <h2 className="mt-3 text-h3 font-bold text-foreground">Attend and join the discussion without submitting</h2>
+        <p className="mt-3 text-sm text-muted-foreground measure-text">You do not need a position statement or a panel invitation to join the audience discussion. Bring your questions and perspectives. Conference registration requirements still apply.</p>
+        <a href="https://hicss.hawaii.edu/participants/" target="_blank" rel="noreferrer" className="mt-4 inline-flex text-sm font-medium text-primary hover:underline">HICSS registration and program information</a>
+      </section>
       <div className="space-y-0">
         {segments.map((s, i) => (
           <motion.div

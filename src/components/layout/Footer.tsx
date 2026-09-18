@@ -4,11 +4,12 @@ const Footer = () => (
       <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
         <div>
           <p className="font-mono text-meta text-muted-foreground">
-            HICSS-60 · January 5–8, 2027 · Hilton Waikoloa Village, Big Island, Hawaiʻi
+            HICSS-60 workshop · January 5, 2027 · Time and room pending · Hilton Waikoloa Village, Big Island, Hawaiʻi
           </p>
           <p className="mt-1 text-sm text-muted-foreground">
-            Robots Among Us: Provocations and Debates on the Future of Human-Robot Collaboration
+            Collaborative Robots: Provocations and Debates on the Future of Human-Robot Collaboration
           </p>
+          <p className="mt-1 text-sm text-muted-foreground">Short name: Robots Among Us</p>
         </div>
         <p className="font-mono text-meta text-muted-foreground">
           Primary point of contact: Connor Esterwood (<a href="mailto:cte@wayne.edu" className="text-primary hover:underline">cte@wayne.edu</a>)

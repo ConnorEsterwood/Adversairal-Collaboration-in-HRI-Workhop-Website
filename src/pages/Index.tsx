@@ -13,8 +13,8 @@ const provocations = [
 
 const dates = [
   { label: "Submission deadline", value: "November 15, 2026" },
-  { label: "Panel invitation notification", value: "December 15, 2026" },
-  { label: "Workshop date", value: "January 5–8, 2027" },
+  { label: "Final notifications", value: "December 15, 2026" },
+  { label: "Workshop date", value: "January 5, 2027" },
 ];
 
 const organizers = [
@@ -40,13 +40,15 @@ const Index = () => (
       <div className="container py-16 md:py-24">
         <div className="grid gap-10 md:grid-cols-12">
           <div className="md:col-span-8">
-            <p className="font-mono text-meta text-primary mb-4">HICSS-60 · Half-day workshop · January 5–8, 2027</p>
+            <p className="font-mono text-meta text-primary mb-4">HICSS-60 · Half-day workshop · January 5, 2027</p>
+            <p className="font-mono text-meta text-muted-foreground mb-4">Robots Among Us</p>
             <h1 className="text-display-mobile md:text-display font-bold text-foreground leading-tight">
-              Robots Among Us Workshop
+              Collaborative Robots: Provocations and Debates on the Future of Human-Robot Collaboration
             </h1>
             <p className="font-serif text-body-lg text-muted-foreground mt-4 measure-text">
-              Provocations and debates on the future of human-robot collaboration. Robots have left the factory floor and entered hospitals, classrooms, warehouses, and offices. This workshop uses position statements and mini-panel conversations to turn disagreement into progress — surfacing competing viewpoints and opening them up to the room.
+              Already attending HICSS? Bring a position you actually hold to a moderated debate, or join the audience discussion. Submit one 300–500-word statement on one of five provocations for consideration as a panel contributor. Nuanced disagreement is welcome.
             </p>
+            <p className="mt-4 text-sm font-medium text-foreground">January 5, 2027 · Time and room pending confirmation</p>
             <div className="mt-8 flex flex-wrap gap-4">
               <Link
                 to="/submit"
@@ -55,10 +57,10 @@ const Index = () => (
                 Submit a Position Statement
               </Link>
               <Link
-                to="/provocations"
+                to="/schedule#attend"
                 className="inline-flex h-12 items-center gap-2 rounded-sm border border-border bg-card px-8 text-sm font-medium text-foreground transition-colors hover:bg-accent"
               >
-                View the provocations <ArrowRight size={16} />
+                Attend without submitting <ArrowRight size={16} />
               </Link>
             </div>
           </div>
@@ -96,9 +98,10 @@ const Index = () => (
     <section className="py-16 md:py-24">
       <div className="container">
         <p className="font-mono text-meta text-primary mb-2">Five provocations</p>
-        <h2 className="text-h2-mobile md:text-h2 font-bold text-foreground mb-10">
+        <h2 className="text-h2-mobile md:text-h2 font-bold text-foreground mb-4">
           The debates this workshop is designed to advance
         </h2>
+        <p className="mb-10 text-sm text-muted-foreground measure-text">All five provocations are open for submissions. We aim to form three two-person panels from the strongest contrasting statements. Panel questions and confirmed contributors will be announced by December 15.</p>
         <div className="grid gap-6 md:grid-cols-2">
           {provocations.map((p, i) => (
             <motion.div

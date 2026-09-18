@@ -70,6 +70,7 @@ const Provocations = () => (
         <p className="mt-4 text-body-lg text-muted-foreground measure-text font-serif">
           Each provocation is drawn directly from the accepted workshop proposal. They are designed to be argued with, not agreed upon.
         </p>
+        <p className="mt-4 text-sm text-muted-foreground measure-text">All five remain open. Submit one 300–500-word statement on one provocation; a second response is optional. Defend a position you actually hold, including nuanced or conditional positions. We will choose the planned three debates from the strongest contrasting submissions.</p>
       </div>
     </section>
 
