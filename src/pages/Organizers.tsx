@@ -27,7 +27,7 @@ const organizers = [
     name: "Sangseok You",
     title: "Assistant Professor",
     affiliation: "Sungkyunkwan University, South Korea",
-    email: "sangseok@skku.edu",
+    email: "sangyou@skku.edu",
     bio: "Sangseok You investigates how people perceive and respond to robotic and AI agents in collaborative environments. His research examines the psychological and social dynamics that shape human-robot interaction in both experimental and field settings.",
   },
 ];
